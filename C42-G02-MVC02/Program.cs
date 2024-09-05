@@ -11,16 +11,30 @@ namespace C42_G02_MVC02
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-            CreateHostBuilder(args).Build().Run();
-        }
+        //public static void Main(string[] args)
+        //{
+        //    var builder = weblocation.CreateDefaultBuilder(args);
+        //    builder.Srevices.AddControllers();
+        //    builder.Srevices.AddControllersWithViews();
+        //    builder.Srevices.AddRazorPages();
+        //    builder.Srevices.AddMvc();
+        //    var app = builder.Build();
+        //    app.MapGet("/", () => "hello");
+        //    //app.MapGet("/mo", () => "hello");
+        //    //app.MapGet("/Singin", Singin);
+        //    app.MapControllerRoute(
+        //        name:"Default",
+        //        pattern:"/{Controller=Movies}/{action=Test}/{id:alpha length(3,10)?}"
+        //        );
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+
+
+            
+        //    app.Run();
+        //}
+        //static string Singin()
+        //{
+        //    return "Singin";
+        //}
     }
 }
